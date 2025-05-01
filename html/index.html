@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Facebook</title>
+    <link rel="icon" type="image/png" href="../assets/facebook.png">
+    <link
+      rel="stylesheet"
+      href="../fontawesome-free-6.7.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <div class="inner">
+          <div class="logo">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <input type="text" placeholder="🔍 Search Facebook" class="search" />
+        </div>
+      </div>
+
+      <div class="nav-center">
+        <div class="inner">
+          <div class="nav-icon">
+            <svg
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+              style="--color: var(--primary-button-background)"
+            >
+              <path
+                d="M9.464 1.286C10.294.803 11.092.5 12 .5c.908 0 1.707.303 2.537.786.795.462 1.7 1.142 2.815 1.977l2.232 1.675c1.391 1.042 2.359 1.766 2.888 2.826.53 1.059.53 2.268.528 4.006v4.3c0 1.355 0 2.471-.119 3.355-.124.928-.396 1.747-1.052 2.403-.657.657-1.476.928-2.404 1.053-.884.119-2 .119-3.354.119H7.93c-1.354 0-2.471 0-3.355-.119-.928-.125-1.747-.396-2.403-1.053-.656-.656-.928-1.475-1.053-2.403C1 18.541 1 17.425 1 16.07v-4.3c0-1.738-.002-2.947.528-4.006.53-1.06 1.497-1.784 2.888-2.826L6.65 3.263c1.114-.835 2.02-1.515 2.815-1.977zM10.5 13A1.5 1.5 0 0 0 9 14.5V21h6v-6.5a1.5 1.5 0 0 0-1.5-1.5h-3z"
+              ></path>
+            </svg>
+          </div>
+          <div class="nav-icon">
+            <svg
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+              style="--color: var(--secondary-icon)"
+            >
+              <path
+                d="M10.996 8.132A1 1 0 0 0 9.5 9v4a1 1 0 0 0 1.496.868l3.5-2a1 1 0 0 0 0-1.736l-3.5-2z"
+              ></path>
+              <path
+                d="M14.573 2H9.427c-1.824 0-3.293 0-4.45.155-1.2.162-2.21.507-3.013 1.31C1.162 4.266.817 5.277.655 6.477.5 7.634.5 9.103.5 10.927v.146c0 1.824 0 3.293.155 4.45.162 1.2.507 2.21 1.31 3.012.802.803 1.813 1.148 3.013 1.31C6.134 20 7.603 20 9.427 20h5.146c1.824 0 3.293 0 4.45-.155 1.2-.162 2.21-.507 3.012-1.31.803-.802 1.148-1.813 1.31-3.013.155-1.156.155-2.625.155-4.449v-.146c0-1.824 0-3.293-.155-4.45-.162-1.2-.507-2.21-1.31-3.013-.802-.802-1.813-1.147-3.013-1.309C17.866 2 16.397 2 14.573 2zM3.38 4.879c.369-.37.887-.61 1.865-.741C6.251 4.002 7.586 4 9.5 4h5c1.914 0 3.249.002 4.256.138.978.131 1.496.372 1.865.74.37.37.61.888.742 1.866.135 1.007.137 2.342.137 4.256 0 1.914-.002 3.249-.137 4.256-.132.978-.373 1.496-.742 1.865-.369.37-.887.61-1.865.742-1.007.135-2.342.137-4.256.137h-5c-1.914 0-3.249-.002-4.256-.137-.978-.132-1.496-.373-1.865-.742-.37-.369-.61-.887-.741-1.865C2.502 14.249 2.5 12.914 2.5 11c0-1.914.002-3.249.138-4.256.131-.978.372-1.496.74-1.865zM8 21.5a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2H8z"
+              ></path>
+            </svg>
+          </div>
+          <div class="nav-icon">
+            <svg
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+              style="--color: var(--secondary-icon)"
+            >
+              <path
+                d="M1.588 3.227A3.125 3.125 0 0 1 4.58 1h14.84c1.38 0 2.597.905 2.993 2.227l.816 2.719a6.47 6.47 0 0 1 .272 1.854A5.183 5.183 0 0 1 22 11.455v4.615c0 1.355 0 2.471-.119 3.355-.125.928-.396 1.747-1.053 2.403-.656.657-1.475.928-2.403 1.053-.884.12-2 .119-3.354.119H8.929c-1.354 0-2.47 0-3.354-.119-.928-.125-1.747-.396-2.403-1.053-.657-.656-.929-1.475-1.053-2.403-.12-.884-.119-2-.119-3.354V11.5l.001-.045A5.184 5.184 0 0 1 .5 7.8c0-.628.092-1.252.272-1.854l.816-2.719zM10 21h4v-3.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V21zm6-.002c.918-.005 1.608-.025 2.159-.099.706-.095 1.033-.262 1.255-.485.223-.222.39-.55.485-1.255.099-.735.101-1.716.101-3.159v-3.284a5.195 5.195 0 0 1-1.7.284 5.18 5.18 0 0 1-3.15-1.062A5.18 5.18 0 0 1 12 13a5.18 5.18 0 0 1-3.15-1.062A5.18 5.18 0 0 1 5.7 13a5.2 5.2 0 0 1-1.7-.284V16c0 1.442.002 2.424.1 3.159.096.706.263 1.033.486 1.255.222.223.55.39 1.255.485.551.074 1.24.094 2.159.1V17.5a2.5 2.5 0 0 1 2.5-2.5h3a2.5 2.5 0 0 1 2.5 2.5v3.498zM4.581 3c-.497 0-.935.326-1.078.802l-.815 2.72A4.45 4.45 0 0 0 2.5 7.8a3.2 3.2 0 0 0 5.6 2.117 1 1 0 0 1 1.5 0A3.19 3.19 0 0 0 12 11a3.19 3.19 0 0 0 2.4-1.083 1 1 0 0 1 1.5 0A3.2 3.2 0 0 0 21.5 7.8c0-.434-.063-.865-.188-1.28l-.816-2.72A1.125 1.125 0 0 0 19.42 3H4.58z"
+              ></path>
+            </svg>
+          </div>
+          <div class="nav-icon">
+            <svg
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+              style="--color: var(--secondary-icon)"
+            >
+              <path
+                d="M12 5a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm-2 4a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+              ></path>
+              <path
+                d="M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM2.5 12c0-.682.072-1.348.209-1.99a2 2 0 0 1 0 3.98A9.539 9.539 0 0 1 2.5 12zm4 0a4.001 4.001 0 0 0-3.16-3.912A9.502 9.502 0 0 1 12 2.5a9.502 9.502 0 0 1 8.66 5.588 4.001 4.001 0 0 0 0 7.824 9.514 9.514 0 0 1-1.755 2.613A5.002 5.002 0 0 0 14 14.5h-4a5.002 5.002 0 0 0-4.905 4.025 9.515 9.515 0 0 1-1.755-2.613A4.001 4.001 0 0 0 6.5 12zm13 0a2 2 0 0 1 1.791-1.99 9.538 9.538 0 0 1 0 3.98A2 2 0 0 1 19.5 12zm-2.51 8.086A9.455 9.455 0 0 1 12 21.5c-1.83 0-3.54-.517-4.99-1.414a1.004 1.004 0 0 1-.01-.148V19.5a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v.438a1 1 0 0 1-.01.148z"
+              ></path>
+            </svg>
+          </div>
+          <div class="nav-icon">
+            <svg
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+              style="--color: var(--secondary-icon)"
+            >
+              <path
+                d="M8 8a1 1 0 0 1 1 1v2h2a1 1 0 1 1 0 2H9v2a1 1 0 1 1-2 0v-2H5a1 1 0 1 1 0-2h2V9a1 1 0 0 1 1-1zm8 2a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0zm-2 4a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0z"
+              ></path>
+              <path
+                d="M.5 11a7 7 0 0 1 7-7h9a7 7 0 0 1 7 7v2a7 7 0 0 1-7 7h-9a7 7 0 0 1-7-7v-2zm7-5a5 5 0 0 0-5 5v2a5 5 0 0 0 5 5h9a5 5 0 0 0 5-5v-2a5 5 0 0 0-5-5h-9z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <div class="item" id="menu">
+          <svg
+            viewBox="0 0 24 24"
+            width="20"
+            height="20"
+            fill="currentColor"
+            aria-hidden="true"
+            class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+            style="--color: var(--primary-icon)"
+          >
+            <path
+              d="M18.5 1A1.5 1.5 0 0 0 17 2.5v3A1.5 1.5 0 0 0 18.5 7h3A1.5 1.5 0 0 0 23 5.5v-3A1.5 1.5 0 0 0 21.5 1h-3zm0 8a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-3A1.5 1.5 0 0 0 21.5 9h-3zm-16 8A1.5 1.5 0 0 0 1 18.5v3A1.5 1.5 0 0 0 2.5 23h3A1.5 1.5 0 0 0 7 21.5v-3A1.5 1.5 0 0 0 5.5 17h-3zm8 0A1.5 1.5 0 0 0 9 18.5v3a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-3a1.5 1.5 0 0 0-1.5-1.5h-3zm8 0a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-3a1.5 1.5 0 0 0-1.5-1.5h-3zm-16-8A1.5 1.5 0 0 0 1 10.5v3A1.5 1.5 0 0 0 2.5 15h3A1.5 1.5 0 0 0 7 13.5v-3A1.5 1.5 0 0 0 5.5 9h-3zm0-8A1.5 1.5 0 0 0 1 2.5v3A1.5 1.5 0 0 0 2.5 7h3A1.5 1.5 0 0 0 7 5.5v-3A1.5 1.5 0 0 0 5.5 1h-3zm8 0A1.5 1.5 0 0 0 9 2.5v3A1.5 1.5 0 0 0 10.5 7h3A1.5 1.5 0 0 0 15 5.5v-3A1.5 1.5 0 0 0 13.5 1h-3zm0 8A1.5 1.5 0 0 0 9 10.5v3a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-3A1.5 1.5 0 0 0 13.5 9h-3z"
+            ></path>
+          </svg>
+        </div>
+        <div class="item" id="messanger">
+          <svg
+            viewBox="0 0 12 12"
+            width="20"
+            height="20"
+            fill="currentColor"
+            aria-hidden="true"
+            class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+            style="--color: var(--primary-icon)"
+          >
+            <g stroke="none" stroke-width="1" fill-rule="evenodd">
+              <path
+                d="m106.868 921.248-1.892 2.925a.32.32 0 0 1-.443.094l-1.753-1.134a.2.2 0 0 0-.222.003l-1.976 1.363c-.288.199-.64-.143-.45-.437l1.892-2.925a.32.32 0 0 1 .443-.095l1.753 1.134a.2.2 0 0 0 .222-.003l1.976-1.363c.288-.198.64.144.45.438m-3.368-4.251c-3.323 0-5.83 2.432-5.83 5.658 0 1.642.652 3.128 1.834 4.186a.331.331 0 0 1 .111.234l.03 1.01a.583.583 0 0 0 .82.519l1.13-.5a.32.32 0 0 1 .22-.015c.541.148 1.108.223 1.685.223 3.323 0 5.83-2.432 5.83-5.657 0-3.226-2.507-5.658-5.83-5.658"
+                transform="translate(-450 -1073.5) translate(352.5 156.845)"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div class="item" id="notification">
+          <svg
+            viewBox="0 0 24 24"
+            width="20"
+            height="20"
+            fill="currentColor"
+            aria-hidden="true"
+            class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+            style="--color: var(--primary-icon)"
+          >
+            <path
+              d="M3 9.5a9 9 0 1 1 18 0v2.927c0 1.69.475 3.345 1.37 4.778a1.5 1.5 0 0 1-1.272 2.295h-4.625a4.5 4.5 0 0 1-8.946 0H2.902a1.5 1.5 0 0 1-1.272-2.295A9.01 9.01 0 0 0 3 12.43V9.5zm6.55 10a2.5 2.5 0 0 0 4.9 0h-4.9z"
+            ></path>
+          </svg>
+        </div>
+        <div class="item profile-pic" id="account">
+          <img src="../assets/1.jpg" alt="Profile" />
+        </div>
+      </div>
+
+      <div class="dropDown">
+        <div class="one" id="one">
+          <div class="topSec">
+            <div class="inner">
+              <div class="account">
+                <div class="image">
+                  <img src="../assets/1.jpg" alt="" />
+                </div>
+                <h3>Mahmoud Amr</h3>
+              </div>
+            </div>
+
+            <div class="allProfiles">
+              <p>See all profiles</p>
+            </div>
+          </div>
+
+          <div class="bottomSec">
+            <div class="menu-item">
+              <span class="icon"><i class="fa-solid fa-gear"></i></span>
+              <span class="label">Setting & privacy</span>
+              <span class="arrow"><i class="fa-solid fa-angle-up"></i></span>
+            </div>
+            <div class="menu-item">
+              <span class="icon"
+                ><i class="fa-solid fa-circle-question"></i
+              ></span>
+              <span class="label">Help & support</span>
+              <span class="arrow"><i class="fa-solid fa-angle-up"></i></span>
+            </div>
+            <div class="menu-item">
+              <span class="icon"><i class="fa-solid fa-moon"></i></span>
+              <span class="label">Display & accessibility</span>
+              <span class="arrow"><i class="fa-solid fa-angle-up"></i></span>
+            </div>
+            <div class="menu-item">
+              <span class="icon"
+                ><i class="fa-solid fa-circle-exclamation"></i
+              ></span>
+              <span class="label">Give feedback</span>
+              <span class="arrow"><i class="fa-solid fa-angle-up"></i></span>
+            </div>
+            <div class="menu-item">
+              <span class="icon"
+                ><i class="fa-solid fa-arrow-right-from-bracket"></i
+              ></span>
+              <span class="label">Log out</span>
+            </div>
+          </div>
+        </div>
+        <div class="two" id="two">
+          <div class="header">
+            <h1>Notifications</h1>
+            <i
+              class="fa-solid fa-ellipsis"
+              style="color: #65676b; cursor: pointer"
+            ></i>
+          </div>
+          <div class="tabs">
+            <div class="tab active">All</div>
+            <div class="tab">Unread</div>
+          </div>
+          <div class="section-header">
+            <h2>New</h2>
+            <div class="see-all">See all</div>
+          </div>
+          <div class="notification-item">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <div class="content">
+              <div class="text">
+                <span class="name">Hossam Ox</span> shared
+                <span class="name">Creative Sarcasm</span>'s post.
+              </div>
+              <div class="time">1h</div>
+            </div>
+          </div>
+          <div class="notification-item">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <div class="content">
+              <div class="text">
+                <span class="name">Hossam Ox</span> shared
+                <span class="name">Creative Sarcasm</span>'s post.
+              </div>
+              <div class="time">1h</div>
+            </div>
+          </div>
+          <div class="notification-item">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <div class="content">
+              <div class="text">
+                <span class="name">I heard</span> posted 4 links: "هداف يبني
+                اللهم بارك"
+              </div>
+              <div class="time">1h</div>
+            </div>
+          </div>
+          <div class="header">
+            <h2>Earlier</h2>
+          </div>
+          <div class="notification-item">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <div class="content">
+              <div class="text">
+                <span class="name">Hossam Ox</span> shared
+                <span class="name">Creative Sarcasm</span>'s post.
+              </div>
+              <div class="time">1h</div>
+            </div>
+          </div>
+          <div class="notification-item">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <div class="content">
+              <div class="text">
+                <span class="name">I heard</span> posted 4 links: "هداف يبني
+                اللهم بارك"
+              </div>
+              <div class="time">1h</div>
+            </div>
+          </div>
+          <div class="earlier-section">
+            <div class="see-previous">See previous notifications</div>
+          </div>
+        </div>
+
+        <div class="three" id="three">
+          <div class="header">
+            <h1>Chats</h1>
+            <div class="icons">
+              <i class="fa-solid fa-ellipsis"></i>
+              <i class="fa-solid fa-arrows-up-down-left-right mid"></i>
+              <i class="fa-solid fa-pen-to-square"></i>
+            </div>
+          </div>
+
+          <div class="messenger-search">
+            <input type="text" id="search" placeholder="Search messenger" />
+          </div>
+
+          <div class="tabs">
+            <div class="tab active">Inbox</div>
+            <div class="tab">Communities</div>
+          </div>
+
+          <div class="chats-section">
+            <div class="messenger-chats">
+              <div class="image"><img src="../assets/1.jpg" alt="" /></div>
+              <div class="content">
+                <div class="text">
+                  <span class="name">Mahmoud amr</span>
+                </div>
+                <div class="time">eh yaba fenak ana mest.......</div>
+              </div>
+            </div>
+
+            <div class="messenger-chats">
+              <div class="image"><img src="../assets/1.jpg" alt="" /></div>
+              <div class="content">
+                <div class="text">
+                  <span class="name">Mahmoud amr</span>
+                </div>
+                <div class="time">eh yaba fenak ana mest.......</div>
+              </div>
+            </div>
+            <div class="messenger-chats">
+              <div class="image"><img src="../assets/1.jpg" alt="" /></div>
+              <div class="content">
+                <div class="text">
+                  <span class="name">Mahmoud amr</span>
+                </div>
+                <div class="time">eh yaba fenak ana mest.......</div>
+              </div>
+            </div>
+            <div class="messenger-chats">
+              <div class="image"><img src="../assets/1.jpg" alt="" /></div>
+              <div class="content">
+                <div class="text">
+                  <span class="name">Mahmoud amr</span>
+                </div>
+                <div class="time">eh yaba fenak ana mest.......</div>
+              </div>
+            </div>
+            <div class="messenger-chats">
+              <div class="image"><img src="../assets/1.jpg" alt="" /></div>
+              <div class="content">
+                <div class="text">
+                  <span class="name">Mahmoud amr</span>
+                </div>
+                <div class="time">eh yaba fenak ana mest.......</div>
+              </div>
+            </div>
+            <div class="messenger-chats">
+              <div class="image"><img src="../assets/1.jpg" alt="" /></div>
+              <div class="content">
+                <div class="text">
+                  <span class="name">Mahmoud amr</span>
+                </div>
+                <div class="time">eh yaba fenak ana mest.......</div>
+              </div>
+            </div>
+            <div class="messenger-chats">
+              <div class="image"><img src="../assets/1.jpg" alt="" /></div>
+              <div class="content">
+                <div class="text">
+                  <span class="name">Mahmoud amr</span>
+                </div>
+                <div class="time">eh yaba fenak ana mest.......</div>
+              </div>
+            </div>
+            <div class="messenger-chats">
+              <div class="image"><img src="../assets/1.jpg" alt="" /></div>
+              <div class="content">
+                <div class="text">
+                  <span class="name">Mahmoud amr</span>
+                </div>
+                <div class="time">eh yaba fenak ana mest.......</div>
+              </div>
+            </div>
+            <div class="messenger-chats">
+              <div class="image"><img src="../assets/1.jpg" alt="" /></div>
+              <div class="content">
+                <div class="text">
+                  <span class="name">Mahmoud amr</span>
+                </div>
+                <div class="time">eh yaba fenak ana mest.......</div>
+              </div>
+            </div>
+            <div class="messenger-chats">
+              <div class="image"><img src="../assets/1.jpg" alt="" /></div>
+              <div class="content">
+                <div class="text">
+                  <span class="name">Mahmoud amr</span>
+                </div>
+                <div class="time">eh yaba fenak ana mest.......</div>
+              </div>
+            </div>
+            <div class="messenger-chats">
+              <div class="image"><img src="../assets/1.jpg" alt="" /></div>
+              <div class="content">
+                <div class="text">
+                  <span class="name">Mahmoud amr</span>
+                </div>
+                <div class="time">eh yaba fenak ana mest.......</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="four" id="four"></div>
+      </div>
+    </nav>
+
+    <!--*********************************-->
+
+    <div class="container">
+      <div class="sidebar left">
+        <div class="leftSidebar">
+          <div class="inner">
+            <div class="icon">
+              <img src="../assets/1.jpg" alt="avatar" class="avatar" />
+              <p id="userName">Username</p>
+            </div>
+            <div class="icon">
+              <img src="../assets/meta.png" alt="avatar" class="avatar" />
+              <p>Meta AI</p>
+            </div>
+            <div class="icon">
+              <img src="../assets/friends.png" alt="avatar" class="avatar" />
+              <p>Friends</p>
+            </div>
+            <div class="icon">
+              <img src="../assets/saved.png" alt="avatar" class="avatar" />
+              <p>Saved</p>
+            </div>
+            <div class="icon">
+              <img src="../assets/memories.png" alt="avatar" class="avatar" />
+              <p>Memories</p>
+            </div>
+            <div class="icon">
+              <img src="../assets/groups.png" alt="avatar" class="avatar" />
+              <p>Groups</p>
+            </div>
+            <div class="icon">
+              <img src="../assets/video.png" alt="avatar" class="avatar" />
+              <p>Video</p>
+            </div>
+            <div class="icon">
+              <img
+                src="../assets/marketplace.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <p>Marketplace</p>
+            </div>
+            <div class="icon">
+              <img src="../assets/feeds.png" alt="avatar" class="avatar" />
+              <p>Feeds</p>
+            </div>
+            <div class="icon" id="btnseemore">
+              <img src="../assets/seemoree.png" alt="avatar" class="avatar" />
+              <p>See more</p>
+            </div>
+            <div class="seemore">
+              <div class="icon">
+                <img src="../assets/ads.png" alt="avatar" class="avatar" />
+                <p>Ads Manager</p>
+              </div>
+              <div class="icon">
+                <img
+                  src="../assets/birthdate.png"
+                  alt="avatar"
+                  class="avatar"
+                />
+                <p>Birthdays</p>
+              </div>
+              <div class="icon">
+                <img src="../assets/climate.png" alt="avatar" class="avatar" />
+                <p>Climate Science Center</p>
+              </div>
+              <div class="icon">
+                <img src="../assets/crisis.png" alt="avatar" class="avatar" />
+                <p>Crisis response</p>
+              </div>
+              <div class="icon">
+                <img src="../assets/events.png" alt="avatar" class="avatar" />
+                <p>Events</p>
+              </div>
+              <div class="icon">
+                <img src="../assets/funds.png" alt="avatar" class="avatar" />
+                <p>Fundraisers</p>
+              </div>
+              <div class="icon">
+                <img
+                  src="../assets/gamingvideo.png"
+                  alt="avatar"
+                  class="avatar"
+                />
+                <p>Gaming Video</p>
+              </div>
+              <div class="icon">
+                <img
+                  src="../assets/messanger.png"
+                  alt="avatar"
+                  class="avatar"
+                />
+                <p>Massenger</p>
+              </div>
+              <div class="icon">
+                <img
+                  src="../assets/msngrkids.png"
+                  alt="avatar"
+                  class="avatar"
+                />
+                <p>Massenger Kids</p>
+              </div>
+              <div class="icon">
+                <img src="../assets/payment.png" alt="avatar" class="avatar" />
+                <p>Orders and Payments</p>
+              </div>
+              <div class="icon">
+                <img src="../assets/pages.png" alt="avatar" class="avatar" />
+                <p>Pages</p>
+              </div>
+              <div class="icon">
+                <img
+                  src="../assets/playgames.png"
+                  alt="avatar"
+                  class="avatar"
+                />
+                <p>Play games</p>
+              </div>
+              <div class="icon">
+                <img
+                  src="../assets/activities.png"
+                  alt="avatar"
+                  class="avatar"
+                />
+                <p>Recent ad activity</p>
+              </div>
+              <div class="icon">
+                <img src="../assets/reels.png" alt="avatar" class="avatar" />
+                <p>Reels</p>
+              </div>
+              <div class="icon" id="btnseeless">
+                <img src="../assets/seeless.webp" alt="avatar" class="avatar" />
+                <p>See less</p>
+              </div>
+            </div>
+            <hr />
+            <div class="shortcuts">
+              <div class="shortcut">
+                <p>Your shortcuts</p>
+                <a href="#" class="edit">Edit</a>
+              </div>
+
+              <div class="icon">
+                <img
+                  src="../assets/billiards.jpg"
+                  alt="avatar"
+                  class="avatar"
+                />
+                <p>8 Ball pool</p>
+              </div>
+              <div class="icon">
+                <img src="../assets/dotnet.png" alt="avatar" class="avatar" />
+                <p>Dotnet Egypt</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="middleContent">
+        <div class="main">
+          <div class="yoursection">
+            <div class="firstsection">
+              <img src="../assets/aisha.jpg" alt="avatar" />
+              <div class="whatsyour"><p>What's on your mind, Aisha?</p></div>
+            </div>
+            <hr />
+            <div class="secondsection">
+              <div class="contentBody">
+                <img src="../assets/livevideo.png" alt="live video" />
+                <p>Live video</p>
+              </div>
+              <div class="contentBody">
+                <img src="../assets/photo&video.png" alt="photo/video" />
+                <p>Photo/video</p>
+              </div>
+              <div class="contentBody">
+                <img src="../assets/feelings&activity.png" alt="feeling/activity" />
+                <p>Feeling/activity</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Stories Section -->
+          <div class="stories">
+            <!-- Your Story -->
+             <div class="myStory">
+              <img src="../assets/aisha.jpg" alt="my-story" />
+              <div class="uploadStory">
+                
+                <div class="icon">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <p>Create story</p>
+              </div>
+            </div>
+    
+            <!-- Friend Stories -->
+            <div class="friendstory">
+              <img
+                class="friendimg"
+                src="../assets/aisha.jpg""
+                alt="friend-story"
+              />
+              <div class="friendprofile">
+                <img
+                  src="../assets/aisha.jpg""
+                  alt="friend-avatar"
+                />
+              </div>
+              <div class="friendname">Sarah Johnson</div>
+            </div>
+    
+            <div class="friendstory">
+              <img
+                class="friendimg"
+                src="../assets/aisha.jpg""
+                alt="friend-story"
+              />
+              <div class="friendprofile">
+                <img
+                  src="../assets/aisha.jpg""
+                  alt="friend-avatar"
+                />
+              </div>
+              <div class="friendname">Mike Chen</div>
+            </div>
+    
+            <div class="friendstory">
+              <img
+                class="friendimg"
+                src="../assets/aisha.jpg""
+                alt="friend-story"
+              />
+              <div class="friendprofile">
+                <img
+                  src="../assets/aisha.jpg""
+                  alt="friend-avatar"
+                />
+              </div>
+              <div class="friendname">Lisa Wong</div>
+            </div>
+    
+            <div class="friendstory">
+              <img
+                class="friendimg"
+                src="../assets/aisha.jpg""
+                alt="friend-story"
+              />
+              <div class="friendprofile">
+                <img
+                  src="../assets/aisha.jpg""
+                  alt="friend-avatar"
+                />
+              </div>
+              <div class="friendname">David Kim</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="postsSection">
+          <div id="container">
+            <div id="posts"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar right">
+        <div id="RightSidebar">
+          <div id="RsideBar">
+            <section id="Sponsored">
+              <p>Sponsored</p>
+            </section>
+            <section id="Contacts">
+              <hr />
+              <div id="header">
+                <p>Contacts</p>
+                <div id="icons">
+                  <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                  <span
+                    ><i
+                      class="fa-solid fa-ellipsis-vertical"
+                      style="transform: rotate(90deg)"
+                    ></i
+                  ></span>
+                </div>
+              </div>
+              <div id="ContactsSection">
+                <div class="Contact">
+                  <div class="imgContainer">
+                    <img src="../assets/2.jpg" />
+                    <span class="active"></span>
+                  </div>
+                  <p>sherif ali</p>
+                </div>
+                <div class="Contact">
+                  <div class="imgContainer">
+                    <img src="../assets/2.jpg" alt="" />
+                    <span class="active"></span>
+                  </div>
+                  <p>sherif ali</p>
+                </div>
+                <div class="Contact">
+                  <div class="imgContainer">
+                    <img src="../assets/2.jpg" alt="" />
+                    <span class="active"></span>
+                  </div>
+                  <p>sherif ali</p>
+                </div>
+                <div class="Contact">
+                  <div class="imgContainer">
+                    <img src="../assets/2.jpg" alt="" />
+                    <span class="active"></span>
+                  </div>
+                  <p>sherif ali</p>
+                </div>
+                <div class="Contact">
+                  <div class="imgContainer">
+                    <img src="../assets/2.jpg" alt="" />
+                    <span class="active"></span>
+                  </div>
+                  <p>sherif ali</p>
+                </div>
+                <div class="Contact">
+                  <div class="imgContainer">
+                    <img src="../assets/2.jpg" alt="" />
+                    <span class="active"></span>
+                  </div>
+                  <p>sherif ali</p>
+                </div>
+                <div class="Contact">
+                  <div class="imgContainer">
+                    <img src="../assets/2.jpg" alt="" />
+                    <span class="active"></span>
+                  </div>
+                  <p>sherif ali</p>
+                </div>
+                <div class="Contact">
+                  <div class="imgContainer">
+                    <img src="../assets/2.jpg" alt="" />
+                    <span class="active"></span>
+                  </div>
+                  <p>sherif ali</p>
+                </div>
+                <div class="Contact">
+                  <div class="imgContainer">
+                    <img src="../assets/2.jpg" alt="" />
+                    <span class="active"></span>
+                  </div>
+                  <p>sherif ali</p>
+                </div>
+                <div class="Contact">
+                  <div class="imgContainer">
+                    <img src="../assets/2.jpg" alt="" />
+                    <span class="active"></span>
+                  </div>
+                  <p>sherif ali</p>
+                </div>
+              </div>
+            </section>
+            <section id="Community">
+              <hr />
+              <p class="header">Community chats</p>
+              <div id="CommunityChatsSection">
+                <div class="CommunityChat">
+                  <div class="imgContainer">
+                    <i class="fa-solid fa-comment"></i>
+                  </div>
+                  <div class="text">
+                    <p>Developers</p>
+                    <p class="info">Egypt developers</p>
+                  </div>
+                </div>
+                <div class="CommunityChat">
+                  <div class="imgContainer">
+                    <i class="fa-solid fa-comment"></i>
+                  </div>
+                  <div class="text">
+                    <p>Backend Developers</p>
+                    <p class="info">c# and .NET developers</p>
+                  </div>
+                </div>
+                <div class="CommunityChat">
+                  <div class="imgContainer">
+                    <i class="fa-solid fa-comment"></i>
+                  </div>
+                  <div class="text">
+                    <p>Friends</p>
+                    <p class="info">elmalek elsaleh school</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="Groupchats">
+              <hr />
+              <p class="header">Group chats</p>
+              <div id="GroupchatsSection">
+                <div class="Groupchat">
+                  <div class="imgContainer">
+                    <div class="firImg">
+                      <img src="../assets/1.jpg" alt="" />
+                    </div>
+                    <div class="secImg">
+                      <img src="../assets/2.jpg" alt="" />
+                    </div>
+                    <span class="actives"></span>
+                  </div>
+                  <p>hazem and youssef</p>
+                </div>
+                <div class="Groupchat">
+                  <div class="imgContainer">
+                    <div class="firImg">
+                      <img src="../assets/1.jpg" alt="" />
+                    </div>
+                    <div class="secImg">
+                      <img src="../assets/2.jpg" alt="" />
+                    </div>
+                    <span class="actives"></span>
+                  </div>
+                  <p>ibrahim, mohamed and hossam</p>
+                </div>
+                <div class="Groupchat">
+                  <div class="imgContainer">
+                    <div class="firImg">
+                      <img src="../assets/1.jpg" alt="" />
+                    </div>
+                    <div class="secImg">
+                      <img src="../assets/2.jpg" alt="" />
+                    </div>
+                    <span class="actives"></span>
+                  </div>
+                  <p>ahmed, mohamed and ali</p>
+                </div>
+                <div class="Groupchat">
+                  <div class="CreateGroupContainer">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <p>Create group chat</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
